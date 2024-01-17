@@ -1,0 +1,27 @@
+.header__all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8b8b92;
+    height: 60px;
+    
+    .header__left{
+        width: 100px;
+        height: 40px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .header__right a{
+        text-decoration: none;
+        color: white;
+       padding: 20px;
+       font-size: 20px;
+      a :hover{
+        color: red;
+       }
+    }
+}
+

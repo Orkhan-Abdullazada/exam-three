@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 200px;
+}
+.footer h2{
+    color: red;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.icon-f{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(97, 16, 97);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-f i{
+    color: rgb(84, 33, 84);
+    font-size:14px;
+}
+.icon-f:hover{
+    color: white;
+    background-color: rgb(119, 119, 231);
+}
+.icon-p{
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-p i{
+    color: red;
+    font-size:14px;
+}
+.icon-p:hover{
+    color: white;
+    background-color: rgb(231, 81, 81);
+}
+.icon-t{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(95, 95, 156);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-t i{
+    color: rgb(106, 106, 198);
+    font-size:14px;
+}
+.icon-t:hover{
+    background-color: skyblue;
+}
+.icon-s{
+    width: 40px;
+    height: 40px;
+    border: 1px solid aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-s i{
+    color: aqua;
+    font-size:14px;
+}
+.icon-s:hover{
+    background-color: skyblue;
+}
+.icon-i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-i i{
+    color: blue;
+    font-size:14px;
+}
+.icon-i:hover{
+  background-color: rgb(87, 87, 251);
+}
+.icon-w{
+    width: 40px;
+    height: 40px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-w i{
+    color: yellow;
+    font-size:14px;
+}
+.icon-w:hover{
+  background-color: rgb(189, 189, 72);
+}
+.icon-b{
+    width: 40px;
+    height: 40px;
+    border: 1px solid pink;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-b i{
+    color: pink;
+    font-size:14px;
+}
+.icon-b:hover{
+  background-color: rgb(235, 167, 178);
+}
+.footer__end{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+ .footer p{
+    color: white;
+}
+.footer__end i{
+    color: white;
+}
+.footer .p{
+    color: blue;
+}
+.p:hover{
+    color: rgb(7, 7, 98);
+}
